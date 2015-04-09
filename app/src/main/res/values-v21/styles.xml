@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="BaseTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/material_deep_teal_200</item>
+        <item name="colorPrimaryDark">@color/material_deep_teal_500</item>
+
+        <item name="android:navigationBarColor">@color/material_deep_teal_200</item>
+    </style>
+
+    <style name="RedTheme" parent="BaseTheme">
+        <item name="colorPrimary">@color/color_primary_red</item>
+        <item name="colorPrimaryDark">@color/color_primary_red_dark</item>
+
+        <item name="android:navigationBarColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="BlueTheme" parent="BaseTheme">
+        <item name="colorPrimary">@color/color_primary_blue</item>
+        <item name="colorPrimaryDark">@color/color_primary_blue_dark</item>
+
+        <item name="android:navigationBarColor">?attr/colorPrimary</item>
+    </style>
+</resources>
